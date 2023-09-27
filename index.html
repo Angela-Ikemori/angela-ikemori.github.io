@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_media.css">
+
+
+    <title>Portifólio</title>
+
+</head>
+
+<body>
+
+    <header class="barra-navegação">
+        <div class="div-max">
+            <nav class="menu">
+                <ul class="menu-nav ">
+                    <!-- <li><a href="#sobre">Sobre</a></li> -->
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="https://www.linkedin.com/in/angela-cristina-souza-ikemori-595983195/"
+                            target="_blank">Linkedin</a></li>
+                    <li><a href="https://github.com/Angela-Ikemori?tab=repositories" target="_blank">GitHub</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+    </header>
+
+    <main class="perfil-container">
+        <section class="perfil">
+            <div>
+                <img id="foto" src="imagem/FOTO_Angela.jpg" alt="Foto Angela" width="200px">
+            </div>
+            <div class="apresentacao">
+                <div>
+                    <h1 class="apresentacao_1">Um pouco</h1>
+                </div>
+                <div class="div-max">
+                    <h2 class="apresentacao_2"> Sobre mim </h2>
+                </div>
+                <div class="apresentacao_3">
+                    <p> Meu nome é Angela Ikemori, minha formação é em Gestão de Projetos de TI. Tive o prazer de
+                        trabalhar como Product Owner na construção de uma plataforma B2C e sou aspirante a
+                        desenvolvedora de sistema.</p>
+                    <p>Em meus trabalhos, aprecio uma aparência minimalista objetivando manter as coisas simples e
+                        flexíveis para garantir que sejam realmente usadas.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="div-max ">
+        <h2 class="skill"> Habilidade que estudo </h2>
+        <ul class="header-icones">
+            <li><img src="imagem/html_3291698.png" alt="icone html" width="30"></li>
+            <li><img src="imagem/css-3_5968295.png" alt="icone css" width="30"></li>
+            <li><img src="imagem/js_5968351.png" alt="icone js" width="30"></li>
+        </ul>
+    </div>
+
+
+    <section>
+        <h2 id="projetos">Projetos</h2>
+
+        <div class=" cards_container ">
+            <div class="card_wrapper">
+                <article class="card">
+                    <div>
+                        <h3>Curriculo</h3>
+                    </div>
+                    <div class="card_body">
+                        <p>Tecnologias usuadas</p>
+                        <p>css</p>
+                        <p>html</p>
+                        <p> O curriculo apresenta minha tragetório profissional.</p>
+                        <br>
+                        <a href="https://angela-ikemori.github.io/Curriculo/" target="_blank"
+                            class="card_btn">Visite</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="card_wrapper">
+                <article class="card">
+                    <div>
+                        <h3>Cardápio</h3>
+                    </div>
+                    <div class="card_body">
+                        <p>Tecnologias usuadas</p>
+                        <p>css</p>
+                        <p>html</p>
+                        <p> Este cardápio foi criado para divulgar comidas típicas juninas.</p>
+                        <br>
+                        <a href="https://angela-ikemori.github.io/Cardapio/" target="_blank" class="card_btn">Visite</a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="card_wrapper">
+                <article class="card">
+                    <div>
+                        <h3>Site ODS</h3>
+                    </div>
+                    <div class="card_body">
+                        <p>Tecnologias usuadas</p>
+                        <p>css</p>
+                        <p>html</p>
+                        <p> O site ODS tem a função de conscientizar as pessoas quantos as metas brasileira da
+                            agenda ONU 2030.</p>
+                        <br>
+                        <a href="https://angela-ikemori.github.io/Landing_page_ODS/" target="_blank"
+                            class="card_btn">Visite</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="form-container">
+            <div class="form-body">
+                <h2 id="contato">Contato</h2>
+                <P>Transformo ideias em resultados tangíveis - Deixe-me saber como posso ajudar, preencha o
+                    formulário para iniciarmos a jornada.</P>
+            </div>
+
+
+            <form action="#" method="post" target="_blank">
+                <fieldset>
+
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" required autofocus>
+
+                    <label for="telefone">Telefone</label>
+                    <input type="telefone" id="telefone" required>
+
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" id="e-mail" required>
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="msg" cols="30" rows="5" required></textarea>
+                    <!-- required >  required são campos obrigatórios -->
+
+                    <input type="submit" value="Enviar">
+
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer class=" footer-container">
+        <div class="footer-top">
+            <a class="top" href="#top">Voltar ao topo</a>
+        </div>
+
+        <div class="footer_creator">
+            <div>
+                <p> 2023 - Feito por Angela Ikemori </p>
+            </div>
+
+            <div class="footer-down">
+                <ul class="footer-redes">
+                    <li> <a href="https://www.linkedin.com/in/angela-cristina-souza-ikemori-595983195/" target="_blank">
+                            <img src="imagem/linkedin-logo.svg" alt="Logo Linkedin"></a>
+                    </li>
+                    <li> <a href="https://github.com/Angela-Ikemori?tab=repositories" target="_blank">
+                            <img src="imagem/github-logo.svg" alt="Logo GitHub"></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-creditos">
+                <h5>Créditos</h5>
+                <div>
+                    <ul id="footer-creditos" class="hover">
+                        <li><a href="https://www.pexels.com/pt-br/foto/macbook-ao-lado-de-oculos-e-smartphone-789433/">Img_Background</a></li>
+                        <li><a href="#">Icone [Html, Css e JS]</a></li>
+                        <li><a href="#">Icone [github e Linkedin]</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

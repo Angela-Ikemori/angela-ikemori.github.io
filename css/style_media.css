@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* RESPONSIVIDADE */
+@media screen and (min-width: 30em) {
+    .menu-nav {
+
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+
+    .menu-nav li {
+        padding-right: 1.5em;
+        margin-right: 1em;
+        cursor: pointer;
+    }
+
+    .menu-nav a {
+        color: #fafafa;
+        text-decoration: none;
+
+    }
+
+    .menu-nav a:hover {
+        color: #FDD01B;
+    }
+
+}
+
+
+@media screen and (max-width: 780px) {
+    #foto {
+        width: 150px;
+    }
+
+     .apresentacao {
+        margin: 0 5%;
+        text-align: left;
+    }
+
+    .apresentacao_1 {
+        text-transform: uppercase;
+        font-weight: lighter;
+        margin-bottom: 0;
+
+    }
+
+    .apresentacao_2 {
+        font-size: 3em;
+        color: #FDD01B;
+        text-transform: uppercase;
+        font-weight: lighter;
+        margin-top: 0;
+
+    }
+
+    .div-max {
+        width: max-content;
+    }
+
+    .skill {
+        text-align: left;
+        margin-left: 1.8em;
+    }
+
+    .header-icones {
+        justify-content: left;
+        margin-left: 1.9em;
+        padding-left: 5px;
+    }
+
+    /* PROJETOS */
+
+    .cards_container {
+
+        flex-direction: column;
+        object-fit: cover;
+
+    }
+
+    .card_wrapper {
+        width: auto;
+
+    }
+
+    #projetos {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+
+    /* Formulário */
+    .form-container {
+        /* display: block; */
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    fieldset {
+        justify-content: center;
+        width: max-content;
+    }
+
+    .form-body {
+        text-align: center;
+
+    }
+
+    .form-body p {
+        padding-top: 5px;
+        text-align: left;
+    }
+}
+
+    @media screen and (max-width: 30em) {
+
+        /* Footer */
+        .footer_creator p {
+            text-align: center;
+            padding-left: auto;
+            padding-bottom: 2em;
+        }
+
+        .footer-redes {
+            padding-bottom: 1em;
+        }
+
+        #footer-creditos {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #footer-creditos a {
+            padding: 0;
+        }
+
+    }
+
+
+
+
+
+
+
+
